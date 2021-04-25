@@ -1,0 +1,12 @@
+
+{ 
+    crc :  11839289765864195582  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 0714b5a10ce44643bbfc4c02d0d05fe3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot odchylenie_tb_behav xil_defaultlib.odchylenie_tb" , 
+    buildDate : "Nov 18 2020" , 
+    buildTime : "09:47:47" , 
+    linkCmd : "D:\\PUL\\Vivado\\2020.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/odchylenie_tb_behav/xsimk.exe\"   \"xsim.dir/odchylenie_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/odchylenie_tb_behav/obj/xsim_1.win64.obj\" -L\"D:\\PUL\\Vivado\\2020.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

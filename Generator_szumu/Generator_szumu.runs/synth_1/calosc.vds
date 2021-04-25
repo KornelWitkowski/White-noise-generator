@@ -1,0 +1,236 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 25 22:38:44 2021
+# Process ID: 19708
+# Current directory: C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.runs/synth_1
+# Command line: vivado.exe -log calosc.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source calosc.tcl
+# Log file: C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.runs/synth_1/calosc.vds
+# Journal file: C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source calosc.tcl -notrace
+Command: synth_design -top calosc -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6900
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'calosc' [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/calosc.vhd:24]
+	Parameter M bound to: 32 - type: integer 
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'generator' declared at 'C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/generator.vhd:13' bound to instance 'generatorek' of component 'generator' [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/calosc.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'generator' [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/generator.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+WARNING: [Synth 8-614] signal 'SEED' is read in the process but is not in the sensitivity list [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/generator.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'generator' (1#1) [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/generator.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'liczenie_sredniej' declared at 'C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/liczenie_sredniej.vhd:12' bound to instance 'srednia1' of component 'liczenie_sredniej' [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/calosc.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'liczenie_sredniej' [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/liczenie_sredniej.vhd:22]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'liczenie_sredniej' (2#1) [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/liczenie_sredniej.vhd:22]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'liczenie_sredniej' declared at 'C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/liczenie_sredniej.vhd:12' bound to instance 'srednia2' of component 'liczenie_sredniej' [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/calosc.vhd:67]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'liczenie_odchylenia' declared at 'C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/liczenie_odchylenia.vhd:13' bound to instance 'odchylenie' of component 'liczenie_odchylenia' [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/calosc.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'liczenie_odchylenia' [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/liczenie_odchylenia.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'liczenie_odchylenia' (3#1) [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/liczenie_odchylenia.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'calosc' (4#1) [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/calosc.vhd:24]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'start_reg' [C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.srcs/sources_1/new/liczenie_odchylenia.vhd:37]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input   38 Bit       Adders := 1     
+	   2 Input   36 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 2     
+	   2 Input   31 Bit       Adders := 1     
+	   2 Input   30 Bit       Adders := 1     
+	   2 Input   27 Bit       Adders := 2     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
++---XORs : 
+	   4 Input     32 Bit         XORs := 1     
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               38 Bit    Registers := 1     
+	               36 Bit    Registers := 2     
+	               32 Bit    Registers := 8     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   38 Bit        Muxes := 2     
+	   2 Input   36 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 10    
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    72|
+|3     |LUT1   |     4|
+|4     |LUT2   |   121|
+|5     |LUT3   |   116|
+|6     |LUT4   |   101|
+|7     |LUT5   |    46|
+|8     |LUT6   |    32|
+|9     |FDCE   |   339|
+|10    |FDPE   |    72|
+|11    |LDC    |    23|
+|12    |IBUF   |     6|
+|13    |OBUF   |   128|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+--------------------+------+
+|      |Instance      |Module              |Cells |
++------+--------------+--------------------+------+
+|1     |top           |                    |  1061|
+|2     |  generatorek |generator           |   382|
+|3     |  odchylenie  |liczenie_odchylenia |   167|
+|4     |  srednia1    |liczenie_sredniej   |   251|
+|5     |  srednia2    |liczenie_sredniej_0 |   126|
++------+--------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1015.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1015.367 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1015.367 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1015.367 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 95 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1015.367 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 23 instances were transformed.
+  LDC => LDCE: 23 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1015.367 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.runs/synth_1/calosc.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file calosc_utilization_synth.rpt -pb calosc_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 25 22:39:29 2021...

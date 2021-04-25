@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 25 22:38:44 2021
+# Process ID: 19708
+# Current directory: C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.runs/synth_1
+# Command line: vivado.exe -log calosc.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source calosc.tcl
+# Log file: C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.runs/synth_1/calosc.vds
+# Journal file: C:/Users/48722/Desktop/ProjektPUL/Generator_szumu/Generator_szumu.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source calosc.tcl -notrace

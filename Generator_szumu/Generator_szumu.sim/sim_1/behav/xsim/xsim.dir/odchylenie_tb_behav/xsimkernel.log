@@ -1,0 +1,7 @@
+Running: xsim.dir/odchylenie_tb_behav/xsimk.exe -simmode gui -wdb odchylenie_tb_behav.wdb -simrunnum 0 -socket 49660
+Design successfully loaded
+Design Loading Memory Usage: 5848 KB (Peak: 5848 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 6408 KB (Peak: 6408 KB)
+Simulation CPU Usage: 31 ms

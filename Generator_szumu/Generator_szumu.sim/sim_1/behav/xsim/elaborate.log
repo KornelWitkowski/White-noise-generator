@@ -1,0 +1,19 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/PUL/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 0714b5a10ce44643bbfc4c02d0d05fe3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot calosc_tb_behav xil_defaultlib.calosc_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture generator_arch of entity xil_defaultlib.generator [\generator(n=24)\]
+Compiling architecture liczenie_sredniej_arch of entity xil_defaultlib.liczenie_sredniej [\liczenie_sredniej(n=24)\]
+Compiling architecture liczenie_odchylenia_arch of entity xil_defaultlib.liczenie_odchylenia [\liczenie_odchylenia(n=24)\]
+Compiling architecture calosc_arch of entity xil_defaultlib.calosc [\calosc(m=24)\]
+Compiling architecture calosc_tb_arch of entity xil_defaultlib.calosc_tb
+Built simulation snapshot calosc_tb_behav

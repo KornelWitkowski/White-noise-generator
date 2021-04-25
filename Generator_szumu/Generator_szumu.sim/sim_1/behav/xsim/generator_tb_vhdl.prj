@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Generator_szumu.srcs/sources_1/new/generator.vhd" \
+"../../../../Generator_szumu.srcs/sim_1/new/generator_tb.vhd" \
+
+# Do not sort compile order
+nosort
